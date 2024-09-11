@@ -1,0 +1,99 @@
+body h2{
+    color: #996633;
+}
+.header h1{
+    display: flex;
+    justify-content: center;
+
+}
+.header img{
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 10px;
+    
+}
+
+.coffeemenu h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.teamenu h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+table{
+    width: 80%;
+    margin-left: 10%;
+}
+table tr{
+    padding: 5px;
+    text-align: center;
+}
+table tr:nth-child(odd){
+    background-color: rgb(179, 177, 177);
+
+}
+.splitems{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.spl{
+    width: 23vw;
+    margin: 2rem;
+
+   
+    
+}
+.spl p{
+    justify-content: center;
+}
+.splhead{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.spl p{
+    text-align: center;
+    margin-top: 1rem;
+}
+.aboutus{
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+}
+.aboutus h2{
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+}
+.talktous{
+    text-align: center;
+    
+}
+.talktous p{
+    margin-bottom: 1rem;
+}
+.talktous a{
+    padding: 12px;
+    text-decoration: none;
+    background-color: rgb(104, 108, 104);
+    
+}
+hr{
+    margin: 1rem 0 1rem 0;
+    width: 60%;
+    margin-left: 20%;
+}
+footer{
+    height: 2rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 5px;
+}
