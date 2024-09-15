@@ -1,105 +1,174 @@
 body {
-    background-color: rgb(100, 94, 94);
-    justify-content: center;
+    background-color: #576370;
+    font-family: "Open Sans", sans-serif;
+
+}
+body h1{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-weight: 400;
+    padding: 40px 0;
+   color:  #996633;
 }
 header{
-    text-align: center;
+    width: 50%;
     margin: auto;
-    
+    text-align: center;
+    padding: 20px 0;
+    color: white;
 }
 .head1{
     display: inline-block;
 }
 .head2{
     display: inline-block;
+    font-size: 36px;
+    margin-left: 15px;
+    font-weight: 500;
 }
 
 main {
-    width: 70%;
-    background-color: white;
+    width: 50%;
+    background: white;
     margin: auto;
 
 }
-
-header img {
-    width: 3%;
+.logo {
+    width: 100%;
+    height: 500px;
+    background-image: url("Images/chilling-cafe-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 table {
-    width: 90%;
-    margin: auto;
+    width: 80%;
     text-align: left;
-    border-collapse: collapse;
+    margin: auto;
+    border-collapse:collapse ;
 }
-main h1{
-    text-align: center;
-    padding: 20px;
-    color: #996633;
-}
-.splitems{
-    display: flex;
-    margin: 2%;
-}
-.spl{
-    flex:1;
-    margin: 20px;
-    text-align: center;
-}
-.spl p {
-    margin-top: 20px;
-}
-.aboutus{
-    margin: 20px;
-}
-.talktous{
-    text-align: center;
-}
-footer{
-    text-align: center;
-    margin: 20px;
-}
-.logo img{
-    width:100%;
-}
-table th {
-    background-color: rgb(80, 78, 78);
-    padding: 5px;
-   
+table th{
+    background-color: #69717a;
     
 }
-table tr:nth-child(odd) {
-    background-color: rgb(189, 176, 176);
+table tr:nth-child(odd){
+    background-color: #a6a9ac;
+}
+.splitems{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 
 }
-table tr td:nth-child(1){
-    padding-left: 20px;
+.spl{
+   flex:1;
+   padding:10px;
+   
+  
 }
-.talktous p {
-    margin-bottom: 30px;
+.aboutus{
+    padding: 25px;
+    text-align: justify;
 }
-.talktous a{
-    margin-bottom: 30px;
-    padding: 12px;
-    background-color: rgb(171, 212, 171);
-    text-decoration: none;
+.talktous{
+    padding: 25px;
+    text-align: center;   
 }
-hr {
-    width: 60%;
+hr{
+    width: 50%;
     margin: auto;
 }
-@media (min-width: 350px) and (max-width: 760px){
+.icons{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px ;
+}
+.icons a{
+    
+    padding: 10px;
+    background-color: rgb(195, 234, 195);
+    margin: 3px;
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media (max-width: 575.98px){
+
+    header{
+        width: 95%;
+        padding: 40px 0;
+    }
+    .head1{
+        font-size: 2rem;
+    }
+    .head2{
+        display: inline-block;
+        font-size: 30px;
+    }
     main{
-        width: 80%;
+        width: 95%;
         margin: auto;
+    }
+    .logo{
+        height: 350px;
+        background-position: center;
+    }
+    table{
+        width: 90%;
     }
     .splitems{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
     .spl{
-        width: 100%;
+        flex-basis: 400px;
+        text-align: center;
+        
         
     }
-    header {
-        padding: 50px;
+    .spl p{
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+    body h1{
+        width: 60%;
+       
+    }
+    
+    
+
+   
+   
+}
+@media (min-width:576px) and (max-width:767.98px){
+    header{
+        width: 90%;
+        padding: 40px 0;
+    }
+    main{
+        width: 90%;
+        margin: auto;
+    }
+    .splitems{
+        flex-direction: column;
+    }
+    
+}
+@media (min-width:768px) and (max-width:991.98px){
+    header{
+        width: 80%;
+        padding: 40px 0;
+    }
+    main{
+        width: 80%;
+        margin: auto;
     }
 }
